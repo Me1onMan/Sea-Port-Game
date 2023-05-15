@@ -16,6 +16,7 @@ public class Interactive : MonoBehaviour
         DrawRay();
     }
 
+
     private void Ray()
     {
         ray = fpcCamera.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
